@@ -1,0 +1,9 @@
+# Caddy terminates TLS and forwards WebSocket upgrades to the relay.
+#
+#   caddy run --config Caddyfile
+#
+# Agents then use wss://relay.example.com/nanobot
+
+relay.example.com {
+	reverse_proxy 127.0.0.1:8787
+}

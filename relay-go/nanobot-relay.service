@@ -1,0 +1,33 @@
+[Unit]
+Description=nanobot relay
+Documentation=https://github.com/your-org/nanobot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=nanobot
+Group=nanobot
+EnvironmentFile=/etc/nanobot/relay.env
+ExecStart=/usr/local/bin/nanobot-relay
+Restart=always
+RestartSec=2
+
+# A relay is a public-facing pipe: give it nothing it does not need.
+LimitNOFILE=65535
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_INET AF_INET6
+CapabilityBoundingSet=
+AmbientCapabilities=
+LockPersonality=true
+MemoryDenyWriteExecute=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,35 @@
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+captures/
+.kotlin/
+.debug-*
+.externalNativeBuild/
+.cxx/
+
+# Local environment and signing credentials
+.env
+.env.*
+*.env
+*.env.*
+!*.env.example
+!*.env.*.example
+!relay-go/relay.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+secrets.properties
+keystore.properties
+
+# Local pairing credentials
+.nanobot/
+.nanobot-link/
+pairing-link.txt
+pairing-qr.txt
+pairing.html

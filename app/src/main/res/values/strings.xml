@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nanobot-Mobile</string>
+    <string name="chat_topics">Topics</string>
+    <string name="fork_chat_title">Fork: %1$s</string>
+    <string name="sidebar_pin">Pin</string>
+    <string name="sidebar_unpin">Unpin</string>
+    <string name="sidebar_rename">Rename</string>
+    <string name="sidebar_archive">Archive</string>
+    <string name="sidebar_unarchive">Unarchive</string>
+    <string name="sidebar_select">Select</string>
+    <string name="sidebar_delete">Delete</string>
+    <string name="sidebar_cancel">Cancel</string>
+    <string name="sidebar_show_archived">Show archived</string>
+    <string name="sidebar_hide_archived">Hide archived</string>
+    <string name="sidebar_actions">Conversation actions for %1$s</string>
+    <string name="sidebar_selected_count">%1$d selected</string>
+    <string name="sidebar_group_pinned">Pinned</string>
+    <string name="sidebar_group_today">Today</string>
+    <string name="sidebar_group_yesterday">Yesterday</string>
+    <string name="sidebar_group_earlier">Earlier</string>
+    <string name="sidebar_group_archived">Archived</string>
+    <string name="sidebar_delete_title">Delete this conversation?</string>
+    <string name="sidebar_delete_title_many">Delete %1$d conversations?</string>
+    <string name="sidebar_delete_description">This action cannot be undone.</string>
+    <string name="sidebar_delete_automations">Linked automations will also be deleted.</string>
+    <string name="sidebar_delete_confirm_with_automations">Delete with automations</string>
+    <string name="sidebar_archive_title">Archive this conversation?</string>
+    <string name="sidebar_archive_title_many">Archive %1$d conversations?</string>
+    <string name="sidebar_archive_description">Conversations are kept; you can unarchive them at any time.</string>
+    <string name="sidebar_unarchive_title">Unarchive this conversation?</string>
+    <string name="sidebar_unarchive_title_many">Unarchive %1$d conversations?</string>
+    <string name="sidebar_unarchive_description">These conversations will return to the sidebar.</string>
+    <string name="sidebar_rename_title">Rename conversation</string>
+    <string name="sidebar_rename_placeholder">Conversation name</string>
+    <string name="sidebar_rename_save">Save</string>
+    <string name="sidebar_empty">No saved chats yet</string>
+    <string name="sidebar_running">Running</string>
+    <string name="sidebar_unread">Unread</string>
+</resources>

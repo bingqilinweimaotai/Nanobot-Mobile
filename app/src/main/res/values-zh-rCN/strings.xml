@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chat_topics">话题</string>
+    <string name="fork_chat_title">分叉：%1$s</string>
+    <string name="sidebar_pin">置顶</string>
+    <string name="sidebar_unpin">取消置顶</string>
+    <string name="sidebar_rename">重命名</string>
+    <string name="sidebar_archive">归档</string>
+    <string name="sidebar_unarchive">取消归档</string>
+    <string name="sidebar_select">选择</string>
+    <string name="sidebar_delete">删除</string>
+    <string name="sidebar_cancel">取消</string>
+    <string name="sidebar_show_archived">显示归档</string>
+    <string name="sidebar_hide_archived">隐藏归档</string>
+    <string name="sidebar_actions">“%1$s”的会话操作</string>
+    <string name="sidebar_selected_count">已选择 %1$d 项</string>
+    <string name="sidebar_group_pinned">置顶</string>
+    <string name="sidebar_group_today">今天</string>
+    <string name="sidebar_group_yesterday">昨天</string>
+    <string name="sidebar_group_earlier">更早</string>
+    <string name="sidebar_group_archived">已归档</string>
+    <string name="sidebar_delete_title">删除这个话题？</string>
+    <string name="sidebar_delete_title_many">删除这 %1$d 个对话？</string>
+    <string name="sidebar_delete_description">此操作无法撤销。</string>
+    <string name="sidebar_delete_automations">关联的自动任务也会一并删除。</string>
+    <string name="sidebar_delete_confirm_with_automations">删除（含自动任务）</string>
+    <string name="sidebar_archive_title">归档此话题？</string>
+    <string name="sidebar_archive_title_many">归档 %1$d 个话题？</string>
+    <string name="sidebar_archive_description">聊天记录会保留，可随时取消归档。</string>
+    <string name="sidebar_unarchive_title">取消归档此话题？</string>
+    <string name="sidebar_unarchive_title_many">取消归档 %1$d 个话题？</string>
+    <string name="sidebar_unarchive_description">这些话题将重新显示在侧栏中。</string>
+    <string name="sidebar_rename_title">重命名会话</string>
+    <string name="sidebar_rename_placeholder">会话名称</string>
+    <string name="sidebar_rename_save">保存</string>
+    <string name="sidebar_empty">还没有保存的会话</string>
+    <string name="sidebar_running">运行中</string>
+    <string name="sidebar_unread">未读</string>
+</resources>
